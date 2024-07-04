@@ -1,0 +1,97 @@
+<!DOCTYPE html> <!-- Especifica el tipo de documento -->
+<html lang="es"> <!-- Especifica el idioma del documento -->
+<!-- Head es el encabezado de la página --> 
+
+    <!-- Taller Unidad 2 -->
+    <!-- 1. Ingresar el favicon, en la sección correspondiente -->
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp Desarrollo Web Full Stack Jueves 3 de Julio</title>
+    <link rel="icon" type="image/x-icon" href="Icono/icono_odontsoft.ico">
+</head>
+<!-- Fin head -->
+
+<!-- Body es el cuerpo de la página -->
+<body>
+
+
+
+    <!-- 4. Estilizar h1-h6 de la página -->
+    <!-- 5. Estilizar las diferentes secciones de la página, modificando tipografía, colores de la letra y fondos -->
+    <!-- 6. Cargar un fondo en alguna de las secciones de la página, ajustar la dimensión de la página -->
+    <main>
+        <h1>Formulario de Servicio </h1> <!-- Título de la página -->
+        <h2> Ingrese Datos Personales para Solicitud</h2> <!-- Subtítulo de la página -->
+        <br>
+
+                    <!-- 10. Crear una sección de contacto con un formulario, en esta el usuario estará obligado a ingresar todos los datos,
+                             deberá contar con una lista de opciones de única selección y otra lista con la posibilidad de escoger múltiples
+                             opciones, finalmente, un botón para enviar el mensaje y otro para borrar el contenido.
+                    -->
+
+
+                <section id="Formulario">
+                    <form action=""> <!-- form define al formulario -->
+                        <!-- Identificacion-->
+                        <label for="Identificacion">Identificacion: " </label>
+                        <input type="text" id="Identificacion" height="100px" width="50px"><br> 
+                        <br>
+
+                        <!-- Nombre-->
+                        <label for="Nombres">Nombres:</label>
+                        <input type="text" id="Nombres:"> 
+
+                        <!-- Apellidos-->
+                        <label for="Apellidos">  Apellidos:</label>
+                        <input type="text" id="Apellidos:"><br>   
+
+                        <!-- Radio Botton -->
+                        <p> Genero:</p>
+                        <input type="radio" name="genero" value="Femenino"> Femenino
+                        <input type="radio" name="genero" value="Masculino"> Masculino
+                        <br>   
+                        <br>     
+                        
+                        <!--Lista de seleccion drop down-->
+                        <p>Servicio Solicitado:</p>
+                        <select>
+                            <option value="Cita Nueva">Nueva cita</option>
+                            <option value="Radiografia">Radiografia</option>
+                        </select>
+                        <br>                        
+                        <br>
+
+                        <!-- Check Box-->
+                        <p>Marque sus Opciones:</p>              
+                        <input type="checkbox" id="Check1" value="Valoracion" /> Valoracion         
+                        <input type="checkbox" id="Check2" value="Control" /> Control  
+                        <input type="checkbox" id="Check3" value="No" /> No Aplica  
+                        <br>
+                        <br>                      
+
+                        <!-- Mensaje-->
+                        <label for="mensaje">Mensaje Adicional:</label>
+                        <input type="mensaje" value = "Msj enviar... " id="mensaje"><br>
+                        <br>
+
+                        <!-- email-->
+                        <label for="email">Email:</label>
+                        <input type="email" id="nombre"><br>
+                        <br>
+                    
+                   
+                        <!-- Celular-->
+                        <label for="celular">Celular:</label>
+                        <input type="celular" value = "300---" id="celular"><br>
+                            
+                    </form>
+                    
+                </section>
+                   
+    </main>
+</body>
+<br>
+<footer> Derechos Reservados - Formulario de Servicio </footer>
+</html>
